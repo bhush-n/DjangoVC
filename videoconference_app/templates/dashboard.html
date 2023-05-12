@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DJANGOVC</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <body>
+    <div class="dashboard">
+        <h1>Welcome, {{name}}! to the DjangoVC.</h1>
+        <!-- create a "New Meeting" button -->
+        <a href="{% url 'meeting' %}" class="button">New Meeting</a>
+        <a href="{% url 'join_room' %}" class="button">Join Meeting</a>
+        <a href="{% url 'logout' %}" class="button">Logout</a>
+    </div>
+    <div class="content">
+      <footer> <a href='https://www.linkedin.com/in/bhushan-bhushnbc/' > Designed by <u> Bhushan Chaudhari </u> </a></footer>
+    </div>
+  </body>
+</head>
+</html>
