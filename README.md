@@ -34,9 +34,7 @@ You have to register on ZegoCloud test mode and take your api key.
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **Required**. Your API key |
 
-
-[https://dashboard.razorpay.com/app/dashboard](https://console.zegocloud.com/dashboard)
-
+[API KEY](https://console.zegocloud.com/dashboard)
 ## Features
 
 - User can join the meeting as well as create the meeting.
