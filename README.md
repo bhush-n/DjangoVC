@@ -46,7 +46,7 @@ You have to register on ZegoCloud test mode and take your api key.
 ## Installation
 
 ```bash
-pip install django-admin
+pip install django
 
 pip install -r requirements.txt
 
