@@ -27,7 +27,7 @@ In this app user can register and further have the accessibility to create new m
 #### ZegoCloud API
 
 ```http
-You have to register on razorpay test mode and take your api key.
+You have to register on ZegoCloud test mode and take your api key.
 ```
 
 | Parameter | Type     | Description                |
